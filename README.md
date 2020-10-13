@@ -1,1 +1,1 @@
-# webpack_test
+# For JS homework in GoIT
