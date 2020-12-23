@@ -1,0 +1,86 @@
+body {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  border: 3px solid rgb(66, 66, 66);
+  background-color: thistle;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.main-button {
+  display: block;
+  margin: 100px auto;
+  height: 100px;
+  width: 300px;
+  border: 2px dotted beige;
+  background: radial-gradient(
+    circle,
+    rgba(199, 174, 238, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius: 25px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  opacity: 0.85;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border-color: #000;
+}
+
+.main-button:focus {
+  outline: none;
+}
+
+.main-button:active {
+  width: 250px;
+}
+
+.name-input {
+  display: block;
+  margin: 100px auto;
+  height: 40px;
+  width: 190px;
+  border: 3px solid goldenrod;
+  border-radius: 15px;
+  padding-left: 4px;
+}
+
+.name-input::placeholder {
+  padding-left: 40px;
+}
+
+.name-input:focus {
+  outline: none;
+}
+
+.flex-left {
+  width: 50px;
+  height: 45px;
+  font-size: 60px;
+  text-align: center;
+  margin-right: -14px;
+  margin-left: 10px;
+  color: teal;
+}
+
+.flex-right {
+  width: 330px;
+  height: 45px;
+  font-size: 28px;
+  padding-top: 30px;
+}
